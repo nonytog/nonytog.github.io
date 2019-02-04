@@ -1,0 +1,98 @@
+body {
+	font: bold 14px sans-serif;
+	line-height: 1.6em;
+	background-color: #ffcccc;
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+.intro ,.participation ,.requirements{
+	background-color: #333;
+	color: #dedede;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	width: 70%;
+	float: left;
+
+	padding: 5px;
+	
+	border-top: 5px #cc0000 solid;
+	border-bottom: 5px #cc0000 solid;
+	border-left: 5px #cc0000 solid;
+	border-right: 35px #cc0000 solid;
+	border
+}
+header {
+	text-align: center;
+	font-size: 150%;
+}
+header,h3 {
+	font-family:Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: 0.2em;
+	word-spacing: 0.1em;
+}
+.intro h1 {
+	text-decoration: underline;
+}
+
+.benefits, .explanation{
+	background-color: #333;
+	color: #dedede;
+	margin-right: 20px;
+	margin-bottom: 30px;
+
+	padding: 5px;
+
+	border-top: 5px #b41444 solid;
+	border-bottom: 5px #b41444 solid;
+	border-left: 35px #b41444 solid;
+	border-right: 5px #b41444 solid;
+
+	float: right;
+}
+
+.explanation{
+	width: 50%;
+}
+.benefits{
+	width: 65%;
+}
+.participation{
+	width: 60%;
+	border-top: 5px #900C3F   solid;
+	border-bottom: 5px #900C3F   solid;
+	border-left: 5px #900C3F   solid;
+	border-right: 35px #900C3F   solid;
+
+}
+.requirements{
+	width: 82%;
+	border-top: 5px #7B241C solid;
+	border-bottom: 5px #7B241C solid;
+	border-left: 5px #7B241C solid;
+	border-right: 35px #7B241C solid;
+}
+
+.design-selection ,.design-archives,.zen-resources{
+	background-color: #333;
+	color: #dedede;
+	/*margin-right: 20px*/;
+	margin-top: 30px;
+	width: 33.3%;
+
+	float: left;
+	border: 5px solid #ffcccc;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.zen-validate-html,.zen-validate-css, .zen-validate-cs, .zen-license, .zen-accessibility, .zen-github{
+	color: #333;
+
+}
+.zen-validate-html{
+	margin-left: 30px;
+}
